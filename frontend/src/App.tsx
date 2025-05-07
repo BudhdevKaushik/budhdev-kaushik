@@ -1,6 +1,6 @@
 import { motion } from "framer-motion";
 import "./index.css";
-import { navLinks } from "./constants";
+// import { navLinks } from "./constants";
 import Navbar from "./components/Navbar";
 import Hero from "./components/Hero";
 import About from "./components/About";
@@ -19,7 +19,7 @@ const App = () => {
       <FloatingElements />
       <CursorFollower />
 
-      <Navbar links={navLinks} />
+      <Navbar />
 
       <main className="container mx-auto px-4 flex-grow">
         <SectionWrapper id="home">

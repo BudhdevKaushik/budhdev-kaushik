@@ -1,7 +1,6 @@
 import { motion } from "framer-motion";
-import { NavLink } from "../constants/types";
 
-const Navbar = ({ links }: { links: NavLink[] }) => {
+const Navbar = () => {
   return (
     <motion.nav
       initial={{ y: -100 }}
