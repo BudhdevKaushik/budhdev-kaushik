@@ -31,8 +31,8 @@ const Contact = () => {
         transition={{ duration: 0.5 }}
         className="text-center mb-16"
       >
-        <h2 className="text-3xl md:text-4xl font-medium text-gray-100 mb-3">
-          Contact Me
+        <h2 className="text-3xl font-bold text-center mb-12">
+          Contact <span className="text-purple-500">Me</span>
         </h2>
         <p className="text-gray-400 text-lg max-w-2xl mx-auto">
           Feel free to reach out for professional inquiries or collaboration
